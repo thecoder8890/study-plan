@@ -41,7 +41,7 @@ FUNCTION stream_first_non_repeating_character(A_character_stream_string):
     //    (i.e., their count in `char_counts_map` is greater than 1).
     WHILE ordered_chars_queue IS NOT EMPTY:
       front_char_in_queue = ordered_chars_queue.PEEK_FRONT()
-      IF char_counts_map[front_char_in_queue] > 1 THEN
+      IF GET_FREQUENCY(char_counts_map, front_char_in_queue) > 1 THEN
         // This character is repeating, remove it from consideration as the "first non-repeating".
         ordered_chars_queue.POP_FROM_FRONT()
       ELSE

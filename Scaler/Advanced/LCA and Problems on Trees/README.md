@@ -20,7 +20,7 @@ CLASS Solution_For_BoundaryTraversal:
   boundary_nodes_accumulator_list: List of Integers
 
   CONSTRUCTOR():
-    this.boundary_nodes_accumulator_list = new empty List
+    boundary_nodes_accumulator_list = new empty List
   ENDCONSTRUCTOR
 
   // Helper: Get left boundary (top-down, excluding leaves)
@@ -94,6 +94,7 @@ CLASS Solution_For_BoundaryTraversal:
     RETURN boundary_nodes_accumulator_list
   ENDFUNCTION
 ENDCLASS
+```
 
 ### Pseudocode for Diameter of binary tree.py
 ```pseudocode
