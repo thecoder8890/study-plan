@@ -94,7 +94,6 @@ CLASS Solution_For_BoundaryTraversal:
     RETURN boundary_nodes_accumulator_list
   ENDFUNCTION
 ENDCLASS
-```
 
 ### Pseudocode for Diameter of binary tree.py
 ```pseudocode
