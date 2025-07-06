@@ -6,4 +6,4 @@
 
 ## Description
 
-[Please add a brief description of this topic.]
+This section introduces the core principles of Dynamic Programming (DP), a powerful algorithmic technique for solving optimization problems by breaking them down into simpler subproblems and storing the results of subproblems to avoid redundant computations.
